@@ -1,0 +1,23 @@
+{
+    "manifest_version":3,
+    "version":"2.0.0",
+    "name":"LockSmith",
+    "action":{
+        "default_popup":"index.html"
+    },
+    "permissions":[
+        "scripting"
+    ],
+    "homepage_url": "https://password-generator-alpha-sandy.vercel.app/",
+    "host_permissions":[
+        "http://*/*",
+        "https://*/*"
+    ],
+    "description": "Effortlessly generate strong passwords.",
+    "icons":{
+        "16":"padlock_16.png",
+        "32":"padlock_32.png",
+        "48":"padlock_48.png",
+        "128":"padlock_128.png"
+    }
+}
